@@ -19,3 +19,7 @@ In Abaqus/CAE, go to to File -> Run script and select the file 'odbupgrader.py'
 ## Blog post
 
 Find more details about the development of this script for Abaqus in this [blog post](https://tecnodigitalschool.com/how-to-upgrade-old-odb-files-in-abaqus/)
+
+<picture>
+ <img alt="ODB upgrading with Python" width=600 src="https://tecnodigitalschool.com/wp-content/uploads/2024/05/traffic-sign.jpg">
+</picture>
