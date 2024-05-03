@@ -13,7 +13,7 @@ Before launching the script:
 
 ## Running the script
 
-In Abaqus/CAE, go to to File -> Run script and select the file 'odbupgrader.py'
+In Abaqus/CAE, go to to *File -> Run script* and select the file 'odbupgrader.py'
 
 
 ## Blog post
