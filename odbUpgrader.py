@@ -67,13 +67,14 @@ for curDirectory, folders, files in os.walk(parentDirectory):
                 if not testMode:
                     session.upgradeOdb(existingOdbPath=odbPath,
                                        upgradedOdbPath=newOdbPath)
-
+                    
+                    # Deletion is only enabled if testMode is False
+                    if deleteOldOdbs:
+                        os.remove(odbPath)
+                
                 # Info: print out odb file size
                 odbSizeMB = float(getsize(odbPath))/(1024. * 1024.)
                 print('Upgraded: {0:s} ({1:.2f} MB)'.format(odbPath, odbSizeMB))
-                
-                if deleteOldOdbs:
-                    os.remove(odbPath)
                 
                 odbCount += 1
         
